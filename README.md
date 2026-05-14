@@ -28,7 +28,7 @@ If you or someone you know is in crisis, please contact a mental health professi
 
 ANIMA applies validated psychological screening scales interactively via the terminal,
 scores responses automatically, and provides clinical interpretations based on established
-severity ranges — all within a clean, professional CLI interface.
+severity ranges, all within a clean, professional CLI interface.
 
 The project was developed to demonstrate how clinical psychology knowledge can be
 systematically implemented using fundamental programming concepts.
@@ -39,7 +39,7 @@ systematically implemented using fundamental programming concepts.
 
 | Feature | Description |
 |---|---|
-| 🧠 **3 validated scales** | PHQ-9, GAD-7, ISI — each with full clinical data |
+| 🧠 **3 validated scales** | PHQ-9, GAD-7, ISI: each with full clinical data |
 | 🌐 **Bilingual** | Full English / Portuguese interface |
 | 📊 **Auto-scoring** | Calculates total score and severity range automatically |
 | ⚠️ **Clinical alerts** | Special alert for PHQ-9 item 9 (suicidal ideation) |
@@ -54,20 +54,20 @@ systematically implemented using fundamental programming concepts.
 
 ## 🩺 Implemented Scales
 
-### PHQ-9 — Patient Health Questionnaire-9
+### PHQ-9: Patient Health Questionnaire-9
 - **Area:** Depression
 - **Items:** 9 · **Max score:** 27
 - **Ranges:** Minimal / Mild / Moderate / Moderately Severe / Severe
 - **Special:** Suicidal ideation alert on item 9
 - **Reference:** Kroenke et al., J Gen Intern Med, 2001
 
-### GAD-7 — Generalized Anxiety Disorder Scale-7
+### GAD-7: Generalized Anxiety Disorder Scale-7
 - **Area:** Anxiety
 - **Items:** 7 · **Max score:** 21
 - **Ranges:** Minimal / Mild / Moderate / Severe
 - **Reference:** Spitzer et al., Arch Intern Med, 2006
 
-### ISI — Insomnia Severity Index
+### ISI: Insomnia Severity Index
 - **Area:** Insomnia
 - **Items:** 7 · **Max score:** 28
 - **Ranges:** No Clinically Significant Insomnia / Subthreshold / Moderate Clinical / Severe Clinical
@@ -217,7 +217,7 @@ ANIMA follows a layered architecture with strict separation of concerns:
 - [ ] Local data encryption (Fernet/AES)
 
 ### Long-term
-- [ ] REST API with FastAPI — interoperability with external systems
+- [ ] REST API with FastAPI, interoperability with external systems
 - [ ] Web application (Django or Flask)
 - [ ] HL7/FHIR integration for hospital systems
 - [ ] PostgreSQL multi-user database
@@ -253,10 +253,10 @@ Morin CM, Belleville G, Bélanger L, Ivers H. The Insomnia Severity Index: Psych
 
 Developed as a portfolio project demonstrating clinical psychology applied to software development.
 
-> *"The goal is not to replace the clinician — it is to give the clinician better tools."*
+> *"The goal is not to replace the clinician, it is to give the clinician better tools."*
 
 ---
 
 ## 📄 License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License: see [LICENSE](LICENSE) for details.
